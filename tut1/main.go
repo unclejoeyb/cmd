@@ -28,9 +28,9 @@ func intDivision(numerator int, denominator int) (int, int, error) {
 	if denominator == 0 {
 		err = errors.New("division by zero is not allowed")
 		return 0, 0, err
-	
+
 	}
 	var result = numerator / denominator
-	var remainder = numerator%denominator
+	var remainder = numerator % denominator
 	return result, remainder, err
 }
