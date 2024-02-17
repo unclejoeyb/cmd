@@ -1,0 +1,4 @@
+GET http://localhost:3000/account
+
+###
+GET http://localhost:3000/account/124324
